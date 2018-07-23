@@ -29,7 +29,7 @@ python app.py
 
 Visit [http://localhost:5000](http://localhost:5000)
 
-## Development!!!!!!!!!!!!!!!!!!!!!!
+## Development
 
 Create a new branch off the **develop** branch for features or fixes.
 
