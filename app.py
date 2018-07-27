@@ -1,5 +1,5 @@
 from web import create_app
-
+import ntplib
 
 if __name__ == '__main__':
     app = create_app(debug=False)
