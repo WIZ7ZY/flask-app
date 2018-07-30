@@ -14,7 +14,7 @@ def app():
 
 def test_app(client):
     response = client.get(url_for('api.index'))
-    assert response.status_code == 200
+    assert response.status_code == 500
     name = os.environ.get('HELLO_NAME') or load_config('name')
     assert 'hello ' + name in str(response.data)
     assert 'fail' not in str(response.data)
