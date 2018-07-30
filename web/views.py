@@ -23,5 +23,5 @@ def index():
     hostname = socket.gethostname()
     html = "<h3>hello {name}</h3>" \
            "<b>host:</b> {hostname}<br/>" \
-           "<b>visits:</b> {visits}"
+           "<b>visits:</b> {visit}"
     return html.format(name=name, hostname=hostname, visits=visits)
